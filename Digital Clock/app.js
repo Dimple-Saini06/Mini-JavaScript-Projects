@@ -9,3 +9,4 @@ setInterval(() => {
     minutes.innerHTML = (clock.getMinutes() < 10 ? "0" : "") + clock.getMinutes();
     seconds.innerHTML = (clock.getSeconds() < 10 ? "0" : "") + clock.getSeconds();
 }, 1000)
+
