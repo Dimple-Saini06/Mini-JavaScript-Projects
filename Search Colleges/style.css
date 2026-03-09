@@ -56,9 +56,13 @@ li {
     transition : transform 0.5s;
 }
 
+li a {
+    display:block;
+}
+
 li:hover {
     background-color: #f2f2f2;
-    transform : translateX(20px);
+    transform : scale(1.1);
 }
 
 @media (min-width:250px) and (max-width:420px){
@@ -66,3 +70,5 @@ li:hover {
         text-align:center;
     }
 }
+
+
